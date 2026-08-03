@@ -1,147 +1,345 @@
 <div align="center">
-  <img src="assets/images/logo.png" alt="KnowQuest Logo" width="120" />
-  <h1>KnowQuest</h1>
-  <p><strong>A Journey of Knowledge — Empowering Learners Worldwide</strong></p>
 
-  <p>
-    <a href="https://khadija-jumani.github.io/Portfolio/#"><img src="https://img.shields.io/badge/Founder-Khadija%20Jumani-purple?style=for-the-badge&logo=linkedin" alt="Founder Khadija Jumani" /></a>
-    <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status" />
-    <img src="https://img.shields.io/badge/Stack-HTML5%20%7C%20CSS3%20%7C%20JS%20ES6+-blue?style=for-the-badge" alt="Stack" />
-    <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge" alt="License" />
-  </p>
+<img src="assets/images/logo.png" alt="KnowQuest Logo" width="130"/>
 
-  <p>
-    <a href="#about-knowquest">About</a> •
-    <a href="#key-features">Features</a> •
-    <a href="#tech-stack">Tech Stack</a> •
-    <a href="#course-offerings">Courses</a> •
-    <a href="#getting-started">Getting Started</a> •
-    <a href="#our-team">Our Team</a> •
-    <a href="#contact--socials">Contact</a>
-  </p>
+# 🌍 KnowQuest
+
+### *Empowering Learners Through Technology, Innovation & Education*
+
+An AI-powered educational platform designed to make quality learning accessible worldwide through interactive courses, personalized guidance, and practical skill development.
+
+<p>
+
+<a href="https://khadija-jumani.github.io/Portfolio/#">
+<img src="https://img.shields.io/badge/Founder-Khadija%20Jumani-7B61FF?style=for-the-badge&logo=github"/>
+</a>
+
+<img src="https://img.shields.io/badge/Version-1.0-success?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Made%20With-HTML%20%7C%20CSS%20%7C%20JavaScript-blue?style=for-the-badge"/>
+
+</p>
+
+**🌐 Live Website**
+
+https://your-website-link.com
+
+**👩‍💻 Portfolio**
+
+https://khadija-jumani.github.io/Portfolio/#
+
 </div>
 
 ---
 
-## 🌟 About KnowQuest
+# 📖 About KnowQuest
 
-**KnowQuest** is a worldwide online educational platform dedicated to bridging two critical gaps in modern education:
-1. **English Communication Confidence** — Providing Spoken & Beginner English facilities so students taking international admissions can express themselves with confidence.
-2. **Computer Science & Tech Readiness** — Equipping learners of all ages (from young kids using Scratch to college & university students mastering Python, AI, Web Development, and Data Science) with practical, high-demand skills.
+KnowQuest is a modern educational platform created to help learners develop practical academic and technical skills through structured, interactive, and engaging learning experiences.
 
-Founded by **Khadija Jumani**, KnowQuest unites students from Pakistan and across the globe under personalized mentorship, project-based learning, and interactive live classes.
+Our mission is to bridge the gap between traditional education and industry-ready skills by offering accessible learning opportunities for students of all ages—from young beginners to university learners and professionals.
 
-> *"Teaching was my passion. KnowQuest is my purpose."* — **Khadija Jumani**
+KnowQuest combines technology, personalized mentorship, and project-based learning to create an engaging environment where students can build confidence, improve communication, and master modern digital skills.
 
 ---
 
-## ✨ Key Features
+# 🚀 Vision
 
-- 🌐 **Global Dual Mission:**
-  - **Communication & Tech Readiness:** English fluency alongside Python, Web Dev, Data Science, and Fundamentals of ML & AI.
-  - **Young Creators Program:** Moving kids from passive game players to active creators (Scratch Jr for ages 5–8 & Scratch Block Programming for ages 8–12).
-- 🧩 **Dual Filter Catalog:** Filter courses seamlessly by both Category (*Tech, English, Video Editing, Creative Arts, Life Skills*) and Age Level (*Kids, High School, College, University*).
-- 🤖 **Smart Course Advisor Quiz:** Interactive 3-step quiz engine that analyzes a learner's age group, interests, and goals to provide instant custom course recommendations.
-- 📅 **3-Step Free Trial Class Reservation:** Dynamic modal workflow for effortless trial booking with timezone selection.
-- 🌙 **Dark & Light Mode Toggle:** Smooth theme switcher featuring a Feather SVG Crescent Moon icon.
-- 📱 **100% Fully Responsive:** Tailored micro-animations, glassmorphism UI tokens, and mobile-optimized navigation.
+To create a global learning community where every student, regardless of location or background, has access to high-quality education, modern technology, and career-focused learning.
 
 ---
 
-## 💻 Tech Stack
+# 🎯 Mission
 
-- **Core Frontend:** HTML5 (Semantic Structure) & JavaScript (ES6+ Vanilla Logic)
-- **Styling & Design System:** Custom CSS3 Variables, Glassmorphism, Responsive Grid System, CSS Animations
-- **Icons & Assets:** Custom 3D Illustrations & Feather SVG Icons
-- **Deployment Ready:** Zero external framework dependencies; loads instantly in any modern web browser.
+Our mission is to empower learners through:
+
+- 🌍 Global Online Education
+- 🤖 Artificial Intelligence
+- 💻 Computer Science & Programming
+- 🇬🇧 English Communication Skills
+- 🎨 Creative Digital Skills
+- 📊 Data Science & Analytics
+- 🎯 Career Development
+- 🌱 Lifelong Learning
 
 ---
 
-## 📁 Project Structure
+# ✨ Key Features
+
+## 📚 Interactive Learning Platform
+
+Modern responsive interface designed for an enjoyable learning experience.
+
+---
+
+## 🤖 AI Course Recommendation
+
+Smart quiz engine that recommends the most suitable courses based on
+
+- Age
+- Interests
+- Learning Goals
+
+---
+
+## 🌍 Global Education
+
+Courses designed for learners from different countries and educational backgrounds.
+
+---
+
+## 👨‍🏫 Expert Instructors
+
+Industry-focused teaching with personalized mentorship.
+
+---
+
+## 📱 Responsive Design
+
+Optimized for
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+---
+
+## 🌙 Dark Mode
+
+Beautiful Light & Dark themes for comfortable learning.
+
+---
+
+## 🎓 Project-Based Learning
+
+Students learn by building practical projects instead of only studying theory.
+
+---
+
+# 📚 Learning Categories
+
+### 🇬🇧 English Language
+
+- Beginner English
+- Spoken English
+- IELTS Preparation
+- Communication Skills
+
+---
+
+### 💻 Programming
+
+- Scratch
+- Python
+- Java
+- C++
+- Web Development
+
+---
+
+### 🤖 Artificial Intelligence
+
+- AI Fundamentals
+- Machine Learning
+- Prompt Engineering
+- AI Tools
+
+---
+
+### 📊 Data Science
+
+- Python
+- Pandas
+- NumPy
+- Data Visualization
+- Power BI
+
+---
+
+### 🎨 Creative Skills
+
+- Graphic Design
+- Canva
+- Photoshop
+- Figma
+
+---
+
+### 🎬 Media Production
+
+- Video Editing
+- CapCut
+- Storytelling
+
+---
+
+### 🌱 Personal Development
+
+- Leadership
+- Communication
+- Productivity
+- Time Management
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technologies |
+|------------|----------------------------|
+| Frontend | HTML5, CSS3, JavaScript (ES6+) |
+| UI Design | Glassmorphism, CSS Variables |
+| Icons | Feather Icons |
+| Responsive Design | CSS Grid & Flexbox |
+| Deployment | GitHub Pages / Vercel |
+
+---
+
+# 📁 Project Structure
 
 ```text
-EDUCATIONAL WEBSITE/
-├── index.html            # Main HTML document & structure
-├── style.css             # Design tokens, themes, layout & animations
-├── app.js                # Core JS logic: filters, quiz engine, modal & theme toggle
-├── README.md             # Repository documentation
-└── assets/
-    └── images/           # High-resolution logos, hero graphics & instructor photos
-        ├── logo.png
-        ├── hero_global_unite.png
-        ├── khadija.png
-        ├── etisam.png
-        ├── mahnoor.png
-        └── amanullah.png
+KnowQuest/
+
+│
+
+├── index.html
+
+├── style.css
+
+├── app.js
+
+├── README.md
+
+│
+
+├── assets/
+
+│   ├── images/
+
+│   ├── icons/
+
+│   └── illustrations/
+
+│
+
+└── components/
 ```
 
 ---
 
-## 📚 Course Offerings
+# 🚀 Getting Started
 
-### 🧒 Kids Section (Ages 5–12)
-- **Scratch Junior (ScratchJr):** Block-based interactive coding & animation (Ages 5–8)
-- **Scratch Block Programming:** Logic building, sprites & multi-level game design (Ages 8–12)
-- **Basics of Python Coding:** Gamified curriculum from variables to mini-games
-- **English for Complete Beginners:** Alphabets, vocabulary & everyday conversations
-- **Creative Storytelling:** Scripting, voice acting & narrative structure
+Clone the repository
 
-### 🏫 High School, College & University (Ages 13+)
-- **Fundamentals of ML and AI:** Neural concepts, data classifiers & visual training tools
-- **Smart AI Use & Prompts:** Prompt engineering, generative tools & AI ethics
-- **Web Development Basics:** Build real websites using HTML5, CSS3 & JavaScript
-- **Data Science & Analytics:** Data analysis, visualization & pipelines (Python, Pandas, Power BI)
-- **English Communication & Fluency:** Advanced spoken English, presentations & interview prep
-- **Video Editing & CapCut:** Visual effects, audio sync & digital video production
-- **Creative Graphic Designing:** Logos, branding & digital design (Canva, Figma, Photoshop)
-- **Management & Leadership:** Time management, goal setting & emotional intelligence
+```bash
+git clone https://github.com/khadija-jumani/KnowQuest.git
+```
 
----
+Open the project
 
-## 🚀 Getting Started
+```bash
+cd KnowQuest
+```
 
-To run KnowQuest locally on your machine:
+Run locally
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/khadija-jumani/KnowQuest.git
-   ```
+```bash
+Open index.html
 
-2. **Navigate to the Directory:**
-   ```bash
-   cd KnowQuest
-   ```
+or
 
-3. **Open in Browser:**
-   - Double-click `index.html` to open it in your default web browser, OR
-   - Use VS Code **Live Server** extension (`http://localhost:5500`).
+Use VS Code Live Server
+```
 
 ---
 
-## 👩‍🏫 Our Expert Mentors
+# 🎯 Future Roadmap
 
-| Instructor | Role | Specialization |
-| :--- | :--- | :--- |
-| **Khadija Jumani** | Tech Lead & Lecturer | Data Science, ML/AI, Web Dev, Java/C++/Python, CS & English |
-| **Etisam Ul Haq Abbasi** | Lecturer | Creative Storytelling, Media Production & Mass Communication |
-| **Mahnoor Tariq** | Lecturer | English Beginners & Fluency, Graphic Design (Figma, Photoshop) |
-| **Amanullah Abbasi** | Lecturer | Video Editing, CapCut Effects, Audio Sync & Digital Media |
+- AI Learning Assistant
+
+- Student Dashboard
+
+- Live Classes
+
+- Certificates
+
+- Learning Analytics
+
+- Discussion Forums
+
+- Assignments
+
+- Progress Tracking
+
+- Online Assessments
+
+- AI Chatbot
+
+- Mobile Application
 
 ---
 
-## 📞 Contact & Social Links
+# 👩‍💻 Founder
 
-- **Founder & CEO:** Khadija Jumani
-- **Official Email:** [knowquest23@gmail.com](mailto:knowquest23@gmail.com)
-- **Direct Founder Email:** [khadijajumani0208@gmail.com](mailto:khadijajumani0208@gmail.com)
-- **WhatsApp / Phone:** `+92 322 9239447` (Pakistan & Global)
-- **Location:** Islamabad, Pakistan (Virtual Online Platform)
-- **Instagram:** [@_knowquest](https://www.instagram.com/_knowquest?igsh=enhpdDI3NTR0bWl3)
-- **LinkedIn:** [Khadija Jumani](https://www.linkedin.com/in/khadija-jumani-728872305/)
-- **Portfolio:** [khadija-jumani.github.io](https://khadija-jumani.github.io/Portfolio/#)
+## Khadija Jumani
+
+Data Science Student | AI Enthusiast | Web Developer | Educator
+
+I am passionate about creating innovative educational technologies that make learning accessible, engaging, and impactful for students worldwide. Through KnowQuest, my goal is to combine Artificial Intelligence, Data Science, and Education to empower the next generation of learners.
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and feedback are always welcome.
+
+If you would like to improve KnowQuest:
+
+1. Fork the repository
+
+2. Create a new branch
+
+3. Commit your changes
+
+4. Submit a Pull Request
+
+---
+
+# 📬 Contact
+
+📧 knowquest23@gmail.com
+
+📧 khadijajumani0208@gmail.com
+
+💼 LinkedIn
+
+https://www.linkedin.com/in/khadija-jumani-728872305/
+
+🌐 Portfolio
+
+https://khadija-jumani.github.io/Portfolio/#
+
+📍 Islamabad, Pakistan
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+Your support motivates us to continue building high-quality educational resources for learners around the world.
 
 ---
 
 <div align="center">
-  <p>© 2026 KnowQuest. Built with ❤️ to empower learners worldwide.</p>
+
+### 🌍 Knowledge Begins Here.
+
+**Learn • Build • Innovate • Grow**
+
+Made with ❤️ by **Khadija Jumani**
+
 </div>
