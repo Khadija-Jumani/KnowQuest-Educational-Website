@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/images/logo.png" alt="KnowQuest Logo" width="130"/>
+<img src="logo.png" alt="KnowQuest Logo" width="120"/>
 
 # 🌍 KnowQuest
 
