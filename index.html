@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KnowQuest | Global Online Learning for All Ages</title>
+  <meta name="description" content="KnowQuest - A worldwide online learning platform for all ages and all nations. Learn English for Beginners, Python Coding, AI, Web Development, Data Science, Video Editing and more. Open globally.">
+  <link rel="stylesheet" href="style.css?v=23">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <img src="assets/images/logo.png" alt="KnowQuest Logo">
+        <div class="logo-text-wrapper">
+          <span>KnowQuest</span>
+          <small class="logo-tagline">A journey of knowledge.</small>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#why-choose">Why Choose Us</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#instructors">Our Team</a></li>
+        <li><a href="#advisor-quiz">Course Advisor</a></li>
+        <li><a href="#faq">FAQs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </button>
+        <button class="hamburger" id="hamburger-menu" aria-label="Open mobile menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav" class="mobile-nav">
+    <ul class="mobile-nav-links">
+      <li><a href="#" class="mobile-link">Home</a></li>
+      <li><a href="#courses" class="mobile-link">Courses</a></li>
+      <li><a href="#instructors" class="mobile-link">Our Team</a></li>
+      <li><a href="#advisor-quiz" class="mobile-link">Course Advisor</a></li>
+      <li><a href="#faq" class="mobile-link">FAQs</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+    <button class="btn btn-primary open-booking-btn" style="margin-top: 16px;">Book Free Trial</button>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-tag">🌍 Global Online Learning Platform &mdash; All Ages &amp; All Nations</span>
+        <h1 class="hero-title">Unlock Knowledge. <span>Quest Further.</span></h1>
+        <p class="hero-description">
+          A worldwide platform for learners of every age and nationality. Whether you are a foreigner learning English from scratch, a student mastering coding, or an advanced learner diving into AI and Data Science &mdash; KnowQuest has a path built for you.
+        </p>
+        <div class="hero-btns">
+          <button class="btn btn-primary open-booking-btn">Book a Free Trial</button>
+          <a href="#advisor-quiz" class="btn btn-secondary">Find Your Course</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="assets/images/hero_global_unite.png" alt="Global students learning online with KnowQuest" class="hero-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Banner -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-item"><h3>1,200+</h3><p>Active Global Students</p></div>
+      <div class="stat-item"><h3>4</h3><p>Expert Lead Instructors</p></div>
+      <div class="stat-item"><h3>98%</h3><p>Student Satisfaction Rate</p></div>
+      <div class="stat-item"><h3>30+</h3><p>Countries Represented</p></div>
+    </div>
+  </section>
+
+  <!-- Featured Founder & CEO Section -->
+  <section class="section ceo-feature-section">
+    <div class="container">
+      <div class="ceo-feature-card">
+        <div class="ceo-feature-grid">
+          <div class="ceo-feature-image-wrapper">
+            <img src="assets/images/khadija.png" alt="Khadija Jumani - Founder &amp; CEO" class="ceo-feature-img">
+          </div>
+          <div class="ceo-feature-info">
+            <h2 class="ceo-feature-title">Khadija Jumani</h2>
+            <p class="ceo-feature-role">Founder | CEO</p>
+            <p class="ceo-feature-tagline" style="font-style: italic; color: var(--primary); font-weight: 600; font-size: 1.1rem; margin-bottom: 20px;">"Teaching was my passion. KnowQuest is my purpose."</p>
+            <div class="ceo-feature-desc">
+              <p style="margin-bottom: 16px;">While working with educational organizations and international students during my Computer Science studies, I noticed a critical gap facing modern learners: many struggle with English communication confidence and lack early exposure to practical tech skills.</p>
+              
+              <p style="margin-bottom: 16px;">I founded <strong>KnowQuest</strong> to bridge this gap &mdash; creating an inclusive global platform that unites students from all around the world under personalized mentorship.</p>
+              
+              <p style="margin-bottom: 12px; font-weight: 700; color: var(--text-main);">Our Dual Missions:</p>
+              <ul style="padding-left: 4px; list-style-type: none; margin-bottom: 16px; display: flex; flex-direction: column; gap: 10px; color: var(--text-muted); font-size: 0.95rem; line-height: 1.55;">
+                <li>✦ <strong>Communication &amp; Tech Readiness:</strong> Equipping students with Spoken English fluency alongside high-demand CS skills in AI, Web Development, and Data Science for international academic and career success.</li>
+                <li>✦ <strong>Empowering Young Creators:</strong> Guiding young minds from Scratch to AI &mdash; transforming kids from passive game players into creative logical thinkers and problem solvers.</li>
+              </ul>
+            </div>
+            <div class="ceo-action-area" style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap; margin-top: 32px;">
+              <div class="ceo-contact-links" style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+                <a href="https://www.linkedin.com/in/khadija-jumani-728872305/" target="_blank" class="ceo-link-item" title="LinkedIn" style="color: var(--text-main); text-decoration: none; font-weight: 600; font-size: 0.95rem; display: flex; align-items: center; gap: 6px; transition: var(--transition);">
+                  <span style="font-size: 1.1rem;">🔗</span> LinkedIn
+                </a>
+                <a href="https://khadija-jumani.github.io/Portfolio/#" target="_blank" class="ceo-link-item" title="Portfolio" style="color: var(--text-main); text-decoration: none; font-weight: 600; font-size: 0.95rem; display: flex; align-items: center; gap: 6px; transition: var(--transition);">
+                  <span style="font-size: 1.1rem;">🌐</span> Portfolio
+                </a>
+                <a href="https://www.instagram.com/_knowquest?igsh=enhpdDI3NTR0bWl3" target="_blank" class="ceo-link-item" title="Instagram" style="color: var(--text-main); text-decoration: none; font-weight: 600; font-size: 0.95rem; display: flex; align-items: center; gap: 6px; transition: var(--transition);">
+                  <span style="font-size: 1.1rem;">📸</span> Instagram
+                </a>
+                <a href="mailto:khadijajumani0208@gmail.com" class="ceo-link-item" title="Email" style="color: var(--text-main); text-decoration: none; font-weight: 600; font-size: 0.95rem; display: flex; align-items: center; gap: 6px; transition: var(--transition);">
+                  <span style="font-size: 1.1rem;">✉️</span> khadijajumani0208@gmail.com
+                </a>
+                <a href="https://wa.me/923229239447" target="_blank" class="ceo-link-item" title="WhatsApp" style="color: var(--secondary); text-decoration: none; font-weight: 700; font-size: 1rem; display: flex; align-items: center; gap: 6px; transition: var(--transition);">
+                  <span style="font-size: 1.25rem;">📞</span> 0322-9239447
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose KnowQuest Section -->
+  <section id="why-choose" class="section why-choose-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why Choose KnowQuest?</h2>
+        <p class="section-desc">Uniting global learners through confidence-building communication, foundational tech skills, and early-age logic building.</p>
+      </div>
+      <div class="why-choose-grid">
+        <div class="why-choose-card">
+          <div class="why-icon-box">🗣️</div>
+          <h3>Bridging Communication Gaps</h3>
+          <p>Dedicated English for Beginners &amp; Spoken English programs so international and local students express themselves with total confidence.</p>
+        </div>
+        <div class="why-choose-card">
+          <div class="why-icon-box">💻</div>
+          <h3>CS &amp; Essential Tech Readiness</h3>
+          <p>Equipping CS students taking admissions with core coding, web development, and tech foundations before their academic journey begins.</p>
+        </div>
+        <div class="why-choose-card">
+          <div class="why-icon-box">🎮</div>
+          <h3>From Game Players to Creators</h3>
+          <p>Inspiring young kids to move beyond playing games to asking <em>"How are these games built?"</em>—building logic from Scratch to AI.</p>
+        </div>
+        <div class="why-choose-card">
+          <div class="why-icon-box">🌍</div>
+          <h3>Uniting Students Globally</h3>
+          <p>A welcoming worldwide platform connecting students from different countries, cultures, and educational stages under one vision.</p>
+        </div>
+        <div class="why-choose-card">
+          <div class="why-icon-box">🌟</div>
+          <h3>Passion Turned Into Purpose</h3>
+          <p>Founded by Khadija Jumani with a deep passion for teaching, delivering impact and individual mentorship one student at a time.</p>
+        </div>
+        <div class="why-choose-card">
+          <div class="why-icon-box">🚀</div>
+          <h3>Logic, Problem-Solving &amp; Leadership</h3>
+          <p>Structured learning pathways that foster critical thinking, creativity, and career-ready practical skills for future leaders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Levels Section -->
+  <section class="section levels-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Learning for Every Stage of Life</h2>
+        <p class="section-desc">KnowQuest offers structured programs tailored to your learning level. From curious kids to working professionals, find your perfect fit.</p>
+      </div>
+      <div class="levels-grid">
+        <div class="level-card level-kids">
+          <div class="level-icon">🧒</div>
+          <h3>Kids</h3>
+          <p class="level-age-tag">Ages 6&ndash;12</p>
+          <p class="level-desc">Fun, gamified lessons in coding basics, storytelling, English phonics and creative arts. Learning through play and imagination!</p>
+          <ul class="level-course-list">
+            <li>&#10004; Scratch &amp; Scratch Junior</li>
+            <li>&#10004; Python Coding Basics</li>
+            <li>&#10004; English for Beginners</li>
+            <li>&#10004; Creative Storytelling</li>
+          </ul>
+        </div>
+        <div class="level-card level-highschool">
+          <div class="level-icon">🏫</div>
+          <h3>High School</h3>
+          <p class="level-age-tag">Ages 13&ndash;17</p>
+          <p class="level-desc">Competitive skill development. Build real projects and gain digital media and coding skills that stand out on college applications.</p>
+          <ul class="level-course-list">
+            <li>&#10004; AI &amp; Machine Learning</li>
+            <li>&#10004; Web Development</li>
+            <li>&#10004; Graphic Designing</li>
+            <li>&#10004; Spoken English Fluency</li>
+          </ul>
+        </div>
+        <div class="level-card level-college">
+          <div class="level-icon">🎓</div>
+          <h3>College</h3>
+          <p class="level-age-tag">Ages 18&ndash;21</p>
+          <p class="level-desc">Career-focused practical learning. Master tools used in industry &mdash; from Python projects to professional design workflows.</p>
+          <ul class="level-course-list">
+            <li>&#10004; Data Science &amp; Analytics</li>
+            <li>&#10004; Advanced Web Dev</li>
+            <li>&#10004; Professional Video Editing</li>
+            <li>&#10004; English Communication</li>
+          </ul>
+        </div>
+        <div class="level-card level-university">
+          <div class="level-icon">🏛️</div>
+          <h3>University / Advanced</h3>
+          <p class="level-age-tag">Age 22+ / Professionals</p>
+          <p class="level-desc">Deep specialization and mastery. Advanced AI, Data Engineering, Leadership and English for Professionals &mdash; for global careers.</p>
+          <ul class="level-course-list">
+            <li>&#10004; Deep Learning &amp; NLP</li>
+            <li>&#10004; Data Engineering</li>
+            <li>&#10004; English for Professionals</li>
+            <li>&#10004; Management &amp; Leadership</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Course Advisor Quiz -->
+  <section id="advisor-quiz" class="section section-bg">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Course Recommendation Quiz</h2>
+        <p class="section-desc">Not sure which course is right for you? Answer 3 quick questions and our smart recommendation engine will match you with the perfect program!</p>
+      </div>
+      <div class="quiz-card" id="quiz-card">
+        <div class="quiz-progress-bar" id="quiz-progress"></div>
+        <!-- Step 1 -->
+        <div class="quiz-step active" data-step="1">
+          <h3 class="quiz-question">1. What is your learning level?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option" data-value="kids">
+              <span class="quiz-option-icon">🧒</span>
+              <span class="quiz-option-text"><h4>Kids (Ages 6&ndash;12)</h4><p>Fun basics, curiosity &amp; creative exploration</p></span>
+            </button>
+            <button class="quiz-option" data-value="highschool">
+              <span class="quiz-option-icon">🏫</span>
+              <span class="quiz-option-text"><h4>High School (Ages 13&ndash;17)</h4><p>Skill building &amp; competitive edge</p></span>
+            </button>
+            <button class="quiz-option" data-value="college">
+              <span class="quiz-option-icon">🎓</span>
+              <span class="quiz-option-text"><h4>College Level (Ages 18&ndash;21)</h4><p>Career-focused &amp; practical projects</p></span>
+            </button>
+            <button class="quiz-option" data-value="university">
+              <span class="quiz-option-icon">🏛️</span>
+              <span class="quiz-option-text"><h4>University / Advanced (22+)</h4><p>Deep mastery &amp; professional specialization</p></span>
+            </button>
+          </div>
+          <div class="quiz-navigation" style="justify-content: flex-end;">
+            <button class="btn btn-primary btn-sm next-step-btn" disabled>Next Question &rarr;</button>
+          </div>
+        </div>
+        <!-- Step 2 -->
+        <div class="quiz-step" data-step="2">
+          <h3 class="quiz-question">2. What are you most interested in learning?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option" data-value="tech">
+              <span class="quiz-option-icon">💻</span>
+              <span class="quiz-option-text"><h4>Technology &amp; Coding</h4><p>Python, Web Dev, AI &amp; Machine Learning</p></span>
+            </button>
+            <button class="quiz-option" data-value="english">
+              <span class="quiz-option-icon">🌐</span>
+              <span class="quiz-option-text"><h4>English Language</h4><p>English for Beginners, fluency &amp; global communication</p></span>
+            </button>
+            <button class="quiz-option" data-value="video">
+              <span class="quiz-option-icon">🎬</span>
+              <span class="quiz-option-text"><h4>Video Editing</h4><p>CapCut, transitions, audio sync &amp; visual effects</p></span>
+            </button>
+            <button class="quiz-option" data-value="creative">
+              <span class="quiz-option-icon">🎨</span>
+              <span class="quiz-option-text"><h4>Creative Arts &amp; Design</h4><p>Graphic design, storytelling &amp; visual content</p></span>
+            </button>
+            <button class="quiz-option" data-value="skills">
+              <span class="quiz-option-icon">💡</span>
+              <span class="quiz-option-text"><h4>Management &amp; Life Skills</h4><p>Leadership, organization &amp; problem solving</p></span>
+            </button>
+          </div>
+          <div class="quiz-navigation">
+            <button class="btn btn-secondary btn-sm prev-step-btn">&larr; Back</button>
+            <button class="btn btn-primary btn-sm next-step-btn" disabled>Next Question &rarr;</button>
+          </div>
+        </div>
+        <!-- Step 3 -->
+        <div class="quiz-step" data-step="3">
+          <h3 class="quiz-question">3. What is your main goal for joining KnowQuest?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option" data-value="career">
+              <span class="quiz-option-icon">🚀</span>
+              <span class="quiz-option-text"><h4>Build future career skills</h4><p>Prepare for high-demand global roles</p></span>
+            </button>
+            <button class="quiz-option" data-value="english-goal">
+              <span class="quiz-option-icon">🗣️</span>
+              <span class="quiz-option-text"><h4>Learn English from scratch</h4><p>Communicate confidently in English worldwide</p></span>
+            </button>
+            <button class="quiz-option" data-value="media">
+              <span class="quiz-option-icon">🎥</span>
+              <span class="quiz-option-text"><h4>Video Creation &amp; Media</h4><p>Learn to direct, edit and present great videos</p></span>
+            </button>
+            <button class="quiz-option" data-value="hobby">
+              <span class="quiz-option-icon">🎮</span>
+              <span class="quiz-option-text"><h4>Fun &amp; engaging learning</h4><p>Productive, creative screen time</p></span>
+            </button>
+          </div>
+          <div class="quiz-navigation">
+            <button class="btn btn-secondary btn-sm prev-step-btn">&larr; Back</button>
+            <button class="btn btn-accent btn-sm finish-quiz-btn" disabled>Get Recommendations &rarr;</button>
+          </div>
+        </div>
+        <!-- Quiz Results -->
+        <div class="quiz-results" id="quiz-results">
+          <span class="quiz-results-icon">🎉</span>
+          <h3>Your Best Matching Courses!</h3>
+          <p>Based on your selections, we highly recommend these courses for you:</p>
+          <div class="recommended-courses-grid" id="recommended-courses"></div>
+          <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+            <button class="btn btn-primary open-booking-btn">Book a Free Trial For This Course</button>
+            <button class="btn btn-secondary" id="restart-quiz-btn">Retake Quiz</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Courses for All Levels &amp; All Nations</h2>
+        <p class="section-desc">From English for complete beginners to advanced AI and Data Science &mdash; filter by category and your learning level to find the perfect course.</p>
+      </div>
+      <!-- Category Filters -->
+      <div class="catalog-filters">
+        <button class="filter-btn active" data-filter="all">All Courses</button>
+        <button class="filter-btn" data-filter="tech">Tech &amp; Coding</button>
+        <button class="filter-btn" data-filter="english">English</button>
+        <button class="filter-btn" data-filter="video">Video Editing</button>
+        <button class="filter-btn" data-filter="creative">Arts &amp; Design</button>
+        <button class="filter-btn" data-filter="skills">Life Skills</button>
+      </div>
+      <!-- Level Filters -->
+      <div class="catalog-filters level-filters">
+        <button class="level-filter-btn active" data-level="all">All Levels</button>
+        <button class="level-filter-btn" data-level="kids">🧒 Kids</button>
+        <button class="level-filter-btn" data-level="highschool">🏫 High School</button>
+        <button class="level-filter-btn" data-level="college">🎓 College</button>
+        <button class="level-filter-btn" data-level="university">🏛️ University</button>
+      </div>
+
+      <div class="courses-grid" id="courses-catalog">
+
+        <!-- Scratch Junior (NEW) -->
+        <div class="course-card tech" data-category="tech" data-level="kids">
+          <div class="course-img-placeholder"><h3>Scratch Junior</h3><div class="course-icon-floating">🧩</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">Tech &amp; Logic</span><span class="meta-age badge-kids">🧒 Kids (Ages 5&ndash;8)</span></div>
+            <h3 class="course-title">Scratch Junior (ScratchJr)</h3>
+            <p class="course-desc">Fun, block-based interactive coding for young kids! Create animated stories, character movements, and interactive mini-games.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 2 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- Scratch Block Programming (NEW) -->
+        <div class="course-card tech" data-category="tech" data-level="kids">
+          <div class="course-img-placeholder"><h3>Scratch Coding</h3><div class="course-icon-floating">🐱</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">Tech &amp; Logic</span><span class="meta-age badge-kids">🧒 Kids (Ages 8&ndash;12)</span></div>
+            <h3 class="course-title">Scratch Block Programming</h3>
+            <p class="course-desc">Master logic building, sprites, animation loops, and game design principles using MIT Scratch. From basic blocks to multi-level games!</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 2 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- Python Coding -->
+        <div class="course-card tech" data-category="tech" data-level="kids highschool">
+          <div class="course-img-placeholder"><h3>Python Coding</h3><div class="course-icon-floating">🐍</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">Tech &amp; Logic</span><span class="meta-age badge-kids">🧒 Kids &middot; High School</span></div>
+            <h3 class="course-title">Basics of Python Coding</h3>
+            <p class="course-desc">A fun-filled, gamified curriculum starting from variable basics up to building custom mini-games and apps using Python.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 2 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- Machine Learning & AI -->
+        <div class="course-card tech" data-category="tech" data-level="highschool college">
+          <div class="course-img-placeholder"><h3>ML &amp; AI Fundamentals</h3><div class="course-icon-floating">🧠</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">Tech &amp; Logic</span><span class="meta-age badge-highschool">🏫 High School &middot; College</span></div>
+            <h3 class="course-title">Fundamentals of ML and AI</h3>
+            <p class="course-desc">Learn how AI &amp; ML models learn from data! Build neural concepts, image &amp; text classifiers with hands-on visual training tools.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 2 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- AI Tools -->
+        <div class="course-card tech" data-category="tech" data-level="highschool college">
+          <div class="course-img-placeholder"><h3>Artificial Intelligence</h3><div class="course-icon-floating">🤖</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">Tech &amp; Logic</span><span class="meta-age badge-highschool">🏫 High School &middot; College</span></div>
+            <h3 class="course-title">Smart AI Use &amp; Prompts</h3>
+            <p class="course-desc">Learn how to command AI platforms responsibly! Prompt engineering, creative content generation, and AI ethics guidelines.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 1 Class / week</span></div>
+          </div>
+        </div>
+
+        <!-- Web Development (NEW) -->
+        <div class="course-card tech" data-category="tech" data-level="highschool college">
+          <div class="course-img-placeholder"><h3>Web Development</h3><div class="course-icon-floating">🌐</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">Tech &amp; Logic</span><span class="meta-age badge-highschool">🏫 High School &middot; College</span></div>
+            <h3 class="course-title">Web Development Basics</h3>
+            <p class="course-desc">Build real websites from scratch using HTML, CSS and JavaScript. Create portfolios, landing pages, and interactive web projects.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 2 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- Data Science (NEW) -->
+        <div class="course-card tech" data-category="tech" data-level="college university">
+          <div class="course-img-placeholder"><h3>Data Science</h3><div class="course-icon-floating">📊</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">Tech &amp; Logic</span><span class="meta-age badge-college">🎓 College &middot; University</span></div>
+            <h3 class="course-title">Data Science &amp; Analytics</h3>
+            <p class="course-desc">Master data analysis, visualization, and ML pipelines. Use Python, Pandas, and Power BI on real-world datasets.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 2 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- English for Beginners (NEW) -->
+        <div class="course-card english" data-category="english" data-level="kids highschool">
+          <div class="course-img-placeholder"><h3>English Beginners</h3><div class="course-icon-floating">🔤</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">English Language</span><span class="meta-age badge-kids">🧒 Kids &middot; High School</span></div>
+            <h3 class="course-title">English for Complete Beginners</h3>
+            <p class="course-desc">Specially designed for non-native English speakers. Start from the very basics &mdash; alphabets, vocabulary, simple sentences and everyday conversations.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 3 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- English Fluency (NEW) -->
+        <div class="course-card english" data-category="english" data-level="college university">
+          <div class="course-img-placeholder"><h3>English Fluency</h3><div class="course-icon-floating">🗣️</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">English Language</span><span class="meta-age badge-college">🎓 College &middot; University</span></div>
+            <h3 class="course-title">English Communication &amp; Fluency</h3>
+            <p class="course-desc">Advanced spoken English for college and professional learners. Focus on fluency, presentations, interviews and international business communication.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 2 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- Spoken English -->
+        <div class="course-card english" data-category="english" data-level="kids highschool college">
+          <div class="course-img-placeholder"><h3>Spoken English</h3><div class="course-icon-floating">🎙️</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">English Language</span><span class="meta-age badge-kids">🧒 Kids &middot; High School &middot; College</span></div>
+            <h3 class="course-title">Confidence &amp; Spoken English</h3>
+            <p class="course-desc">Interactive conversations, accent neutralization, public speaking, and building vocabulary through speaking games and real-world scenarios.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 2 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- Video Editing -->
+        <div class="course-card video" data-category="video" data-level="kids highschool college">
+          <div class="course-img-placeholder"><h3>Video Editing</h3><div class="course-icon-floating">🎬</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">Creative Media</span><span class="meta-age badge-kids">🧒 Kids &middot; High School &middot; College</span></div>
+            <h3 class="course-title">Video Editing &amp; CapCut</h3>
+            <p class="course-desc">Learn to edit videos like a pro! Master transitions, filters, cuts, visual effects, and audio synchronization using CapCut.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 2 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- Graphic Designing -->
+        <div class="course-card creative" data-category="creative" data-level="highschool college">
+          <div class="course-img-placeholder"><h3>Graphic Designing</h3><div class="course-icon-floating">🎨</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">Visual Arts</span><span class="meta-age badge-highschool">🏫 High School &middot; College</span></div>
+            <h3 class="course-title">Creative Graphic Designing</h3>
+            <p class="course-desc">Unlock digital design using Canva, Figma and Photoshop. Design logos, social media content, branding materials and presentations.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 2 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- Storytelling -->
+        <div class="course-card creative" data-category="creative" data-level="kids highschool">
+          <div class="course-img-placeholder"><h3>Storytelling</h3><div class="course-icon-floating">📖</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">Communication</span><span class="meta-age badge-kids">🧒 Kids &middot; High School</span></div>
+            <h3 class="course-title">Creative Storytelling</h3>
+            <p class="course-desc">Enhance imagination through story structuring, expressing emotions, voice acting, and writing short stories and scripts.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 2 Classes / week</span></div>
+          </div>
+        </div>
+
+        <!-- Management -->
+        <div class="course-card skills" data-category="skills" data-level="highschool college university">
+          <div class="course-img-placeholder"><h3>Management</h3><div class="course-icon-floating">💡</div></div>
+          <div class="course-content">
+            <div class="course-meta"><span class="meta-category">Life Skills</span><span class="meta-age badge-highschool">🏫 High School &middot; College &middot; University</span></div>
+            <h3 class="course-title">Management &amp; Leadership</h3>
+            <p class="course-desc">Time management, goal setting, presentation skills, and emotional intelligence &mdash; essential tools for global career success.</p>
+            <div class="course-features"><span>⚡ Live Interactive</span><span>📅 1 Class / week</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Instructors Section -->
+  <section id="instructors" class="section section-bg">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Expert Mentors</h2>
+        <p class="section-desc">Our lead instructors are passionate educators with years of experience teaching learners of all ages from across the globe &mdash; from curious kids to working professionals.</p>
+      </div>
+      <div class="instructors-grid">
+        <!-- Khadija Jumani (1st Lead Card) -->
+        <div class="instructor-card">
+          <div class="instructor-img-wrapper"><img src="assets/images/khadija.png" alt="Khadija Jumani - Tech Lead &amp; Lecturer" class="instructor-img"></div>
+          <span class="instructor-role ceo">Tech Lead &amp; Lecturer</span>
+          <h3 class="instructor-name">Khadija Jumani</h3>
+          <p class="instructor-subjects" style="font-size: 0.85rem; font-weight: 700; margin-bottom: 12px; line-height: 1.3;">Data Analyst | BI Analyst | Data Engineer | Web Developer | Graphic Designer | CS Lecturer</p>
+          <div class="instructor-bio" style="text-align: left; font-size: 0.82rem; line-height: 1.4; margin-bottom: 10px;">
+            <ul style="padding-left: 4px; display: flex; flex-direction: column; gap: 4px; list-style-type: none;">
+              <li>✦ <strong>Data Science &amp; AI:</strong> Analysis, Visualization, ML Modeling, Generative AI, NLP, LLMs</li>
+              <li>✦ <strong>BI &amp; Data Engineering:</strong> ETL (SSIS), Data Warehousing, Data Cube (SSAS), Power BI / Tableau</li>
+              <li>✦ <strong>Graphic Designing:</strong> Canva, Figma, Adobe Photoshop, Adobe Illustrator, Pixlr</li>
+              <li>✦ <strong>Programming Languages:</strong> Java, C++, R, Python, SQL</li>
+              <li>✦ <strong>Web Development:</strong> HTML, CSS, JavaScript, Next.js</li>
+              <li>✦ <strong>Leadership &amp; Lecturing:</strong> Event Management, Social Media Management, CS &amp; English Lecturer</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Etisam Ul Haq Abbasi -->
+        <div class="instructor-card">
+          <div class="instructor-img-wrapper"><img src="assets/images/etisam.png" alt="Etisam Ul Haq Abbasi - Storytelling Lecturer" class="instructor-img"></div>
+          <span class="instructor-role prof">Lecturer</span>
+          <h3 class="instructor-name">Etisam Ul Haq Abbasi</h3>
+          <p class="instructor-subjects" style="font-size: 0.85rem; font-weight: 700; margin-bottom: 12px; line-height: 1.3;">Creative Storytelling | Media Production</p>
+          <div class="instructor-bio" style="text-align: left; font-size: 0.82rem; line-height: 1.4; margin-bottom: 10px;">
+            <ul style="padding-left: 4px; display: flex; flex-direction: column; gap: 4px; list-style-type: none;">
+              <li>✦ <strong>Storytelling Art:</strong> Narration, story structure, expression</li>
+              <li>✦ <strong>Media Production:</strong> Media design, video directs, voice acting</li>
+              <li>✦ <strong>Strategic Communication:</strong> Connect with global audiences</li>
+              <li>✦ <strong>Education Base:</strong> BS Mass Media &amp; Communication at COMSATS</li>
+              <li>✦ <strong>Goal Target:</strong> Boost learner speech confidence &amp; creativity</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mahnoor Tariq -->
+        <div class="instructor-card">
+          <div class="instructor-img-wrapper"><img src="assets/images/mahnoor.png" alt="Mahnoor Tariq - English &amp; Design Lecturer" class="instructor-img"></div>
+          <span class="instructor-role prof">Lecturer</span>
+          <h3 class="instructor-name">Mahnoor Tariq</h3>
+          <p class="instructor-subjects" style="font-size: 0.85rem; font-weight: 700; margin-bottom: 12px; line-height: 1.3;">English for Beginners &amp; Fluency | Graphic Design | Visual Content</p>
+          <div class="instructor-bio" style="text-align: left; font-size: 0.82rem; line-height: 1.4; margin-bottom: 10px;">
+            <ul style="padding-left: 4px; display: flex; flex-direction: column; gap: 4px; list-style-type: none;">
+              <li>✦ <strong>English Teaching:</strong> Beginner to advanced, all nationalities welcome</li>
+              <li>✦ <strong>Graphic Design:</strong> Canva, Figma, Photoshop, Illustrator</li>
+              <li>✦ <strong>Digital Visuals:</strong> Social media, posters, branding material</li>
+              <li>✦ <strong>Non-Profit Work:</strong> Writing &amp; research for youth-focused projects</li>
+              <li>✦ <strong>Skill Target:</strong> Detail-oriented, visual branding &amp; communication</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Amanullah Abbasi -->
+        <div class="instructor-card">
+          <div class="instructor-img-wrapper"><img src="assets/images/amanullah.png" alt="Amanullah Abbasi - Video Editing Lecturer" class="instructor-img"></div>
+          <span class="instructor-role prof">Lecturer</span>
+          <h3 class="instructor-name">Amanullah Abbasi</h3>
+          <p class="instructor-subjects" style="font-size: 0.85rem; font-weight: 700; margin-bottom: 12px; line-height: 1.3;">Video Editing &amp; CapCut Skills | Digital Media</p>
+          <div class="instructor-bio" style="text-align: left; font-size: 0.82rem; line-height: 1.4; margin-bottom: 10px;">
+            <ul style="padding-left: 4px; display: flex; flex-direction: column; gap: 4px; list-style-type: none;">
+              <li>✦ <strong>Video Editing:</strong> CapCut software, video cuts, timing</li>
+              <li>✦ <strong>Visual Effects:</strong> Smooth transitions, keyframing, filter styling</li>
+              <li>✦ <strong>Audio &amp; Sync:</strong> Music integration, audio clean, voice syncs</li>
+              <li>✦ <strong>Digital Media:</strong> Visual storytelling, video layout design</li>
+              <li>✦ <strong>Skill Target:</strong> Project presentation &amp; digital video creation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs Section -->
+  <section id="faq" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">Find answers to the most common questions about KnowQuest classes, schedules, curriculum, and our global approach to learning.</p>
+      </div>
+      <div class="faq-accordion">
+        <div class="faq-item active">
+          <button class="faq-header-btn"><span>What are the requirements for online classes?</span><span class="faq-icon-arrow">▼</span></button>
+          <div class="faq-body"><div class="faq-content">You only need a stable internet connection, a laptop or tablet, and a webcam. Classes are held live via Zoom or Google Meet. No prior experience needed for beginner courses &mdash; we start from absolute scratch!</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-header-btn"><span>Is KnowQuest open to all nationalities worldwide?</span><span class="faq-icon-arrow">▼</span></button>
+          <div class="faq-body"><div class="faq-content">Absolutely! KnowQuest is a global platform welcoming learners from every country. We specifically offer English courses designed for non-native speakers. Our time slots cover timezones worldwide &mdash; PST, EST, GMT, GST, IST, CET, and more.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-header-btn"><span>Do you offer English courses for non-native speakers?</span><span class="faq-icon-arrow">▼</span></button>
+          <div class="faq-body"><div class="faq-content">Yes! We have dedicated "English for Complete Beginners" courses tailored for learners who have little to no English background. Our instructor Mahnoor Tariq specializes in teaching English to international students &mdash; starting from absolute basics up to fluent communication.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-header-btn"><span>How do we schedule the free trial class?</span><span class="faq-icon-arrow">▼</span></button>
+          <div class="faq-body"><div class="faq-content">Click any "Book Free Trial" button, fill in your details, select your desired course(s), and choose your preferred timezone. Our coordinator will contact you via WhatsApp or Email to finalize the timing.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-header-btn"><span>What age groups and learning levels are supported?</span><span class="faq-icon-arrow">▼</span></button>
+          <div class="faq-body"><div class="faq-content">KnowQuest supports all learning levels: Kids (6&ndash;12), High School (13&ndash;17), College (18&ndash;21), and University / Advanced (22+). We also welcome adult professionals who want to upskill. Every course is tagged with its recommended level.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-header-btn"><span>What is the average class size?</span><span class="faq-icon-arrow">▼</span></button>
+          <div class="faq-body"><div class="faq-content">We keep our batches small &mdash; typically 3 to 6 students per class &mdash; to guarantee personalized attention. We also offer 1-on-1 private slots for learners who prefer dedicated individual sessions.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section-bg">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <div>
+          <h2 class="section-title" style="text-align: left; font-size: 2.2rem; margin-bottom: 12px;">Get In Touch With Us</h2>
+          <p class="section-desc" style="text-align: left;">Have questions about our courses or scheduling? Drop us a message and our team will guide you through enrollment.</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon-box">📞</div>
+          <div class="contact-card-text"><h4>Call or WhatsApp</h4><p>+92 322 9239447 (Pakistan &amp; Global WhatsApp)</p></div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon-box">✉️</div>
+          <div class="contact-card-text"><h4>Official Support Email</h4><p>knowquest23@gmail.com</p></div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon-box">📍</div>
+          <div class="contact-card-text"><h4>Location &amp; Operations</h4><p>Islamabad, Pakistan (Virtual Global Platform)</p></div>
+        </div>
+      </div>
+      <div class="contact-form-card">
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="contact-name" class="form-label">Full Name</label>
+            <input type="text" id="contact-name" class="form-input" placeholder="e.g. John Smith" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-email" class="form-label">Email Address</label>
+            <input type="email" id="contact-email" class="form-input" placeholder="e.g. you@domain.com" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-msg" class="form-label">Message</label>
+            <textarea id="contact-msg" class="form-input" rows="4" placeholder="How can we help you?" style="resize: none;" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <a href="#" class="logo">
+          <img src="assets/images/logo.png" alt="KnowQuest Logo">
+          <div class="logo-text-wrapper">
+            <span>KnowQuest</span>
+            <small class="logo-tagline">A journey of knowledge.</small>
+          </div>
+        </a>
+        <p>A global online learning platform connecting learners of all ages and nationalities with expert instructors. Specializing in English for Beginners, Coding, AI, Web Development, Video Editing and Creative Arts.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Popular Courses</h4>
+        <ul class="footer-links">
+          <li><a href="#courses">English for Beginners</a></li>
+          <li><a href="#courses">Scratch &amp; Python Coding</a></li>
+          <li><a href="#courses">Web Development</a></li>
+          <li><a href="#courses">Fundamentals of ML &amp; AI</a></li>
+          <li><a href="#courses">Video Editing (CapCut)</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#why-choose">Why Choose Us</a></li>
+          <li><a href="#courses">Explore Courses</a></li>
+          <li><a href="#instructors">Our Instructors</a></li>
+          <li><a href="#advisor-quiz">Course Advisor Quiz</a></li>
+          <li><a href="#faq">FAQs &amp; Help</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Official Networks</h4>
+        <ul class="footer-links">
+          <li><a href="https://www.instagram.com/_knowquest?igsh=enhpdDI3NTR0bWl3" target="_blank">📸 Official Instagram</a></li>
+          <li><a href="https://www.linkedin.com/in/khadija-jumani-728872305/" target="_blank">💼 Founder LinkedIn</a></li>
+          <li><a href="https://khadija-jumani.github.io/Portfolio/#" target="_blank">🌐 Founder Portfolio</a></li>
+          <li><a href="mailto:khadijajumani0208@gmail.com">✉️ Direct Founder Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 KnowQuest. All rights reserved.</p>
+      <div style="display: flex; gap: 20px;">
+        <a href="#" class="mobile-link" style="color: var(--text-muted); text-decoration: none;">Privacy Policy</a>
+        <a href="#" class="mobile-link" style="color: var(--text-muted); text-decoration: none;">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div class="modal-overlay" id="booking-modal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title">Book Free Trial Class</h3>
+        <button class="modal-close" id="close-booking-modal">&times;</button>
+      </div>
+      <div class="modal-progress"><div class="modal-progress-fill" id="booking-progress"></div></div>
+      <div class="modal-body">
+        <form id="booking-form" novalidate>
+          <div class="modal-step active" data-modal-step="1">
+            <h4 style="margin-bottom: 20px; font-weight: 700; font-size: 1.1rem;">Your Information</h4>
+            <div class="form-group">
+              <label for="student-name" class="form-label">Your Name / Student Name</label>
+              <input type="text" id="student-name" class="form-input" placeholder="Enter full name" required>
+            </div>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="student-age" class="form-label">Age</label>
+                <input type="number" id="student-age" class="form-input" min="5" max="65" placeholder="e.g. 14" required>
+              </div>
+              <div class="form-group">
+                <label for="parent-name" class="form-label">Parent/Guardian Name <span style="font-weight: 400; font-size: 0.78rem; opacity: 0.6;">(optional for adults)</span></label>
+                <input type="text" id="parent-name" class="form-input" placeholder="Parent name (if applicable)">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="parent-email" class="form-label">Email Address</label>
+              <input type="email" id="parent-email" class="form-input" placeholder="email@address.com" required>
+            </div>
+          </div>
+          <div class="modal-step" data-modal-step="2">
+            <h4 style="margin-bottom: 8px; font-weight: 700; font-size: 1.1rem;">Select Subject</h4>
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 20px;">Select one or more subjects for the free trial class.</p>
+            <div class="subject-selection">
+              <button type="button" class="subject-btn" data-subject="English for Beginners"><span class="dot"></span> English for Beginners</button>
+              <button type="button" class="subject-btn" data-subject="English Communication"><span class="dot"></span> English Communication</button>
+              <button type="button" class="subject-btn" data-subject="Python Coding"><span class="dot"></span> Python Coding</button>
+              <button type="button" class="subject-btn" data-subject="Web Development"><span class="dot"></span> Web Development</button>
+              <button type="button" class="subject-btn" data-subject="Machine Learning"><span class="dot"></span> Machine Learning</button>
+              <button type="button" class="subject-btn" data-subject="Smart AI Use"><span class="dot"></span> AI Prompts Use</button>
+              <button type="button" class="subject-btn" data-subject="Data Science"><span class="dot"></span> Data Science</button>
+              <button type="button" class="subject-btn" data-subject="Video Editing"><span class="dot"></span> Video Editing (CapCut)</button>
+              <button type="button" class="subject-btn" data-subject="Graphic Designing"><span class="dot"></span> Graphic Designing</button>
+              <button type="button" class="subject-btn" data-subject="Storytelling"><span class="dot"></span> Storytelling</button>
+              <button type="button" class="subject-btn" data-subject="Management Skills"><span class="dot"></span> Management Skills</button>
+            </div>
+          </div>
+          <div class="modal-step" data-modal-step="3">
+            <h4 style="margin-bottom: 20px; font-weight: 700; font-size: 1.1rem;">Availability &amp; Timezone</h4>
+            <div class="form-group">
+              <label for="preferred-date" class="form-label">Preferred Start Date</label>
+              <input type="date" id="preferred-date" class="form-input" required>
+            </div>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="preferred-time" class="form-label">Preferred Time Slot</label>
+                <input type="time" id="preferred-time" class="form-input" required>
+              </div>
+              <div class="form-group">
+                <label for="timezone" class="form-label">Your Timezone</label>
+                <select id="timezone" class="form-input" required>
+                  <option value="Asia/Karachi" selected>Pakistan Standard Time (PST)</option>
+                  <option value="Europe/London">Greenwich Mean Time (GMT/BST)</option>
+                  <option value="America/New_York">Eastern Standard Time (EST)</option>
+                  <option value="America/Chicago">Central Standard Time (CST)</option>
+                  <option value="America/Los_Angeles">Pacific Standard Time (PST)</option>
+                  <option value="Asia/Dubai">Gulf Standard Time (GST)</option>
+                  <option value="Asia/Riyadh">Saudi Standard Time (AST)</option>
+                  <option value="Asia/Kolkata">India Standard Time (IST)</option>
+                  <option value="Asia/Shanghai">China Standard Time (CST)</option>
+                  <option value="Australia/Sydney">Eastern Australia Time (AEST)</option>
+                  <option value="Europe/Paris">Central European Time (CET)</option>
+                  <option value="Europe/Moscow">Moscow Standard Time (MSK)</option>
+                  <option value="Africa/Johannesburg">South Africa Time (SAST)</option>
+                  <option value="America/Toronto">Eastern Canada Time (ET)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="parent-whatsapp" class="form-label">WhatsApp Contact Number (For Scheduling)</label>
+              <input type="tel" id="parent-whatsapp" class="form-input" placeholder="e.g. +92 300 1234567" required>
+            </div>
+          </div>
+          <div class="modal-step" data-modal-step="success">
+            <div class="success-container">
+              <div class="success-icon-wrapper">✓</div>
+              <h3 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 12px;">Trial Scheduled!</h3>
+              <p style="color: var(--text-muted); margin-bottom: 16px;">We have received your request for <strong id="summary-student">Ali</strong> to start a trial class.</p>
+              <div style="background-color: var(--bg-page); padding: 16px; border-radius: var(--radius-md); border: 1px solid var(--border); text-align: left; font-size: 0.9rem; margin-bottom: 24px;">
+                <p><strong>Subjects:</strong> <span id="summary-subjects">Python Coding</span></p>
+                <p><strong>Date:</strong> <span id="summary-date">2026-07-20</span> at <span id="summary-time">16:00</span> (<span id="summary-tz">Asia/Karachi</span>)</p>
+                <p><strong>We will contact you at:</strong> <span id="summary-whatsapp">+923001234567</span></p>
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-muted);">A confirmation is sent to <strong id="summary-email">you@domain.com</strong>. Our coordinator will ping you on WhatsApp soon!</p>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer" id="modal-footer">
+        <button class="btn btn-secondary btn-sm" id="prev-modal-btn" type="button" style="display: none;">Back</button>
+        <button class="btn btn-primary btn-sm" id="next-modal-btn" type="button">Next Step</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=23"></script>
+</body>
+</html>
